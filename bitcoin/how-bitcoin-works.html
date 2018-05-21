@@ -18,16 +18,38 @@
 
         <h1>How Bitcoin works</h1>
 
-                <div class="row bg-shade">
-                    <div class="col">
-        <p>Bitcoin lets two people securely exchange value online without a bank, government, company, or any other central authority between them.</p>
+        <div class="row bg-shade">
+            <div class="col">
+                <p>Bitcoin lets two people securely exchange value online without a bank, government, company, or any other central authority between them.</p>
+                <h3>Basic process</h3>
+                <ol>
+                    <li>You use an online program where you have an online wallet with your personal Bitcoin address (which is a compressed version of a public key). It also contains data needed to sign transactions, known as my private key.</li>
+                    <li>In the program, click 'Send Coins'.</li>
+                    <li>Type in recipient address and amount. Click 'Send'.</li>
+                    <li>The wallet uses my private key to sign the transaction</li>
+                    <li>It then publishes a signed copy of it to the entire Internet.</li>
+                    <li>The amount in your wallet then decreases.</li>
+                </ol>
+                <h3>What happens when it's sent through the Internet?</h3>
+                <ol>
+                    <li>On the Bitcoin network our transaction gets bundled into a block with other transactions.</li>
+                    <li>This block is tied shut with a cryptographic puzzle.</li>
+                    <li>Specialized computers called Miners compete to solve this puzzle. Whichever computer solves the block puzzle first is entitled to claim any transaction fees that were included in that block, along with a block reward of some Bitcoins.
+                        This is actually how new Bitcoins are introduced to the world.</li>
+                    <li>The Miner publishes the soft block and it becomes part of the public ledger known as the block chain. This entire process takes about 10 minutes.</li>
+                </ol>
 
+                <h3>When can you spend your Bitcoin</h3>
+                <ol>
+                    <li>At this point, you still cannot spend your Bitcoin.</li>
+                    <li>Several Miners might have solved a block at essentially the same time and they're all competing to have their block be the next official one on the block chain.</li>
+                    <li>every additional block that gets solved confirms the ones that come before it. So, it's best to wait for confirmation of a few more blocks, after the one containing your transaction, before you treat it as irreversible and you treat
+                        the Bitcoins as spendable.</li>
+                    <li>This takes about 1 hour. This is fast compared to Credit Card or Checks which could take days to clear.</li>
+                </ol>
 
-
-                    </div>
-                  </div>
-
-
+            </div>
+        </div>
 
 
 
