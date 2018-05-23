@@ -1,3 +1,7 @@
+body {
+  background-color: #1A1B1D;
+  color: #00FFC4;
+}
 h1 {
   margin-top: 70px;
 }
@@ -32,7 +36,7 @@ h3 {
 }
 
 .bg-shade {
-  background-color: #EFEFEF;
+  background-color: #2F1A1F;
 }
 
 .bg-black {
