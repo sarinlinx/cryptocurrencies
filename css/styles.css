@@ -10,6 +10,9 @@ body, html {
   color: #00FFC4;
 }
 
+/*___________________________________________________
+Homepage categories
+___________________________________________________*/
 .homepage-categories {
   padding: 30px;
   margin: 2rem 0;
@@ -28,7 +31,9 @@ body, html {
   text-decoration: none;
 }
 
-/* NAVBAR */
+/*___________________________________________________
+Navbar
+___________________________________________________*/
 
 .navbar {
   background-color: rgba(21, 31, 33, 0.5);
@@ -164,29 +169,20 @@ ___________________________________________________*/
   vertical-align: middle;
 }
 
-/* Desktop, screens less than 760px */
+.breadcrumb {
+ background-color: transparent;
+}
 
-@media (max-width: 760px) {
-  /* Screens above 760px will left align text */
-  /* Center text on screens under 760px */
+.breadcrumb-link {
+ color: #ff9800;
+}
+
+/*___________________________________________________
+Desktop, screens less than 760px
+___________________________________________________*/
+@media (max-width: 500px) {
   #header {
-    text-align: center;
-  }
-  #social {
-    text-align: center;
-  }
-  /* auto fill both sides so the line shifts to the center*/
-  #social hr, #who hr {
-    margin: 8% auto;
-  }
-  /* centers text and button */
-  #who {
-    text-align: center;
-  }
-  #who img {
-    margin-top: 15%;
-  }
-  #footer {
-    text-align: center;
+    display: none;
+    /* text-align: center; */
   }
 }
