@@ -1,5 +1,5 @@
 body {
-  background-color: #1A1B1D;
+  background-color: #000;
   color: #00FFC4;
 }
 h1 {
@@ -36,7 +36,7 @@ h3 {
 }
 
 .bg-shade {
-  background-color: #2F1A1F;
+  background-color: #1A1B1D;
 }
 
 .bg-black {
