@@ -18,30 +18,36 @@
 </head>
 
 <body>
-    <!-- Create HEADER section. This is the first large section a visitor sees -->
-    <section id="header">
-        <!-- Add a Bootstrap container -->
-        <div class="container text-center">
+  <!-- Breadcrumb trail -->
+  <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a class="breadcrumb-link" href="../../index.html">Home</a></li>
+          <li class="breadcrumb-item"><a class="breadcrumb-link" href="../currencies-toc.html">Currencies TOC</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Bitcoin TOC</li>
+      </ol>
+  </nav>
 
-              <div class="row">
-                <!-- Anything over a medium sized device will see two columns of size 6 -->
-                <!-- Anything under a medium sized device will stack the sections -->
-                <div class="col wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">
-                    <a href="bitcoin-overview.html"><button type="button" class="toc-link">Bitcoin overview</button></a>
-                </div>
-                <!-- Close first column -->
-            </div>
-            <!-- Close row -->
+  <!-- Create HEADER section. This is the first large section a visitor sees -->
+  <section id="header">
+      <!-- Add a Bootstrap container -->
+      <div class="container text-center">
 
-            <div class="row">
-                <!-- Anything over a medium sized device will see two columns of size 6 -->
-                <!-- Anything under a medium sized device will stack the sections -->
-                <div class="col wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">
-                    <a href="how-bitcoin-works.html"><button type="button" class="toc-link">How Bitcoin works</button></a>
-                </div>
-                <!-- Close first column -->
-            </div>
-            <!-- Close row -->
+
+          <div class="row">
+              <div class="col-8 mx-auto wow fadeIn" data-wow-delay="0.5s" data-wow-duration="0.5s">
+                  <a class="homepage-categories" href="bitcoin-overview.html">Bitcoin Overview</a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-8 mx-auto wow fadeIn" data-wow-delay="0.5s" data-wow-duration="0.5s">
+                  <a class="homepage-categories" href="how-bitcoin-works.html">How Bitcoin works</a>
+              </div>
+          </div>
+      </div>
+      <!-- Close container -->
+  </section>
+  <!-- Close HEADER section -->
 
 
 
