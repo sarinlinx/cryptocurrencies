@@ -19,59 +19,140 @@
 
 <body>
 
-  <!-- Breadcrumb trail -->
-  <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a class="breadcrumb-link" href="../index.html">Home</a></li>
-          <li class="breadcrumb-item"><a class="breadcrumb-link" href="buying-and-selling-toc.html">Buying and Selling TOC</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Wallets</li>
-      </ol>
-  </nav>
-<body>
-    <div class="container">
+    <!-- Breadcrumb trail -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a class="breadcrumb-link" href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a class="breadcrumb-link" href="buying-and-selling-toc.html">Buying and Selling TOC</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Wallets</li>
+        </ol>
+    </nav>
+
+    <body>
+        <div class="container">
 
 
-        <h1>Using Bitcoin</h1>
-        <div class="row bg-shade">
-            <div class="col">
-                <p>First, you need a wallet. This is usually software for your computer or portable device that contains your public key. That is the full form of the address where people can send Bitcoins to you along with your private key which gives you
-                    access to those Bitcoins.</p>
-                <p> you can't easily get wallets for iOS device because Apple has blocked their distribution through the Apple app store.</p>
-                <p> you can't easily get wallets for iOS device because Apple has blocked their distribution through the Apple app store.</p>
-                <ul>
-                    <li><a href="https://bitcoin.org">bitcoin offical site</a></li>
-                </ul>
+            <h1>Using Bitcoin</h1>
+            <div class="row bg-shade">
+                <div class="col">
+                    <p>First, you need a wallet. This is usually software for your computer or portable device that contains your public key. That is the full form of the address where people can send Bitcoins to you along with your private key which gives
+                        you access to those Bitcoins.</p>
+                    <p> you can't easily get wallets for iOS device because Apple has blocked their distribution through the Apple app store.</p>
+                    <p> you can't easily get wallets for iOS device because Apple has blocked their distribution through the Apple app store.</p>
+                    <ul>
+                        <li><a href="https://bitcoin.org">bitcoin offical site</a></li>
+                    </ul>
 
+                </div>
             </div>
-        </div>
 
-        <h1>3 Types of wallets</h1>
-        <div class="row bg-shade">
-            <div class="col">
-                <p>There are basically <a href="https://bitcoin.org/en/choose-your-wallet">3 types of wallets</a></p>
-                <ul>
-                    <li>Desktop</li>
-                    <li>Mobile</li>
-                    <li>Web - Tend to be less secure</li>
-                </ul>
-<p>A wallet is very much like a bank account, except that you can create as many as you want. And in fact, some people create different wallets for different purposes: such as personal and business or even one wallet for each transaction that they do. </li>
-<p>On an Android phone, just visit the Play store and search for Bitcoin wallet.</li>
-  <p>Any of these wallets will work, and you can always change which one you use. Simply install the new wallet and send your Bitcoins to yourself at the new address.</p>
+            <h1>3 Types of wallets</h1>
+            <div class="row bg-shade">
+                <div class="col">
+                    <p>There are basically <a href="https://bitcoin.org/en/choose-your-wallet">3 types of wallets</a></p>
+                    <ul>
+                        <li>Desktop</li>
+                        <li>Mobile</li>
+                        <li>Web - Tend to be less secure</li>
+                    </ul>
+                    <p>A wallet is very much like a bank account, except that you can create as many as you want. And in fact, some people create different wallets for different purposes: such as personal and business or even one wallet for each transaction
+                        that they do. </li>
+                        <p>On an Android phone, just visit the Play store and search for Bitcoin wallet.</li>
+                            <p>Any of these wallets will work, and you can always change which one you use. Simply install the new wallet and send your Bitcoins to yourself at the new address.</p>
+                </div>
             </div>
-        </div>
 
-<h1>Warning</h1>
-<div class="row bg-shade">
-    <div class="col">
-<p> One warning though, be sure to check the URL of the site where you're downloading the wallet. Your best bet is to only download wallets by way of links that come from bitcoin.org and specifically from this page at /chooseyourwallet.</p>
-<p> Also consider storing only a small amount of money in the new wallet for awhile because it's possible that a scammer could release new wallet software that quietly steals your coin. And remember that anyone who has access to your device also has access to your wallet and can spend your coins. So, treat your Bitcoin wallet like a real world wallet because it contains real world money. </p>
+            <h1>Warning</h1>
+            <div class="row bg-shade">
+                <div class="col">
+                    <p> One warning though, be sure to check the URL of the site where you're downloading the wallet. Your best bet is to only download wallets by way of links that come from bitcoin.org and specifically from this page at /chooseyourwallet.</p>
+                    <p> Also consider storing only a small amount of money in the new wallet for awhile because it's possible that a scammer could release new wallet software that quietly steals your coin. And remember that anyone who has access to your device
+                        also has access to your wallet and can spend your coins. So, treat your Bitcoin wallet like a real world wallet because it contains real world money. </p>
+                </div>
+            </div>
+
+
+
+
+            <h1>Requesting Bitcoin</h1>
+            <div class="row bg-shade">
+                <div class="col">
+                    <p>Several ways:</p>
+                    <ul>
+                        <li>Buy it online (from an exchange) - special case</li>
+                        <li>But it directly</li>
+                        <li>Earn it</li>
+                        <li>Sell something for it</li>
+                    </ul>
+
+                    <h3>Buying money</h3>
+                    <p>This is completely safe on both sides because the sender has to confirm the payment before it gets sent, and the recipient is only displaying the public key. </p>
+                    <p>Provide either the text of your address, or a QR code to the person who is going to pay you.</p>
+                    <p>In your wallet, click 'request'. You should be able to view something callsed 'Your address'. It's a long link of numbers and letters. This is what you need to request money. The other persona can type this into their wallet and send
+                        you money.</p>
+                    <p>You could also use the PUBLIC Key QR code which they can scan.</p>
+                    <h4>Documentation for building these links</h4>
+                    <p>https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki#Examples</p>
+                </div>
+            </div>
+
+
+
+
+            <h1>Sending and Receiving Bitcoin</h1>
+            <div class="row bg-shade">
+                <div class="col">
+                    <p>When you send someone a QR code, they scan it on their phone and see the following info:</p>
+                    <ul>
+                        <li>Your address</li>
+                        <li>Amount owed</li>
+                        <li>Any notes</li>
+                    </ul>
+                    <p>The other person clicks 'Send' and the money is sent to you.</p>
+                    <p>It will take about an hour for the coins to be confirmed by the Bitcoin network.</p>
+                    <h2>A NOTE ON SENDING</h2>
+                    <p>When you send, most wallets automatically add a small amount as a fee to get miners to confirm your transaction.</p>
+
+                    <p>the standard amount is one ten thousandth of a Bitcoin per Kilobyte processed. And that's typically in the region of five or ten American cents. </p>
+                    <p>most miners don't really care all that much about the fees. They mostly want the block reward which is much bigger. But fees do help them decide which transactions to process first. And as the Bitcoin economy grows, fees are likely
+                        to become much more important. </p>
+
+                    <h4>How to send</h4>
+                    <p>Locate the person's address or QR code. This could be listed on their website.</p>
+                    <p>This opens your wallet. Click the amount to send and confirm.</p>
+
+                    <h3>Notes on Sending Bitcoin</h3>
+                    <p>First, payments are irreversible. So be absolutely sure you want to send the money before you hit Send. </p>
+                    <p>Second, if you're buying from a vendor, check out the vendor's policies for accepting BitCoin because they might differ a bit from accepting other kinds of money. </p>
+                    <p>Third, BitCoin prices usually vary depending on the exchange rate. So always check current rates to be sure you're paying the amount you expect.</p>
+
+                    <p> Many wallets will show you that conversion before you send anything. Also, because one BitCoin is worth a lot of dollars, it's possible to get confused by the number of 0s after the decimal point. It's easy to fool yourself into thinking that small numbers equal small prices. </p>
+
+                      <p>Finally, remember that BitCoin transactions have to be confirmed by the network before the recipient can spend the coins. Some vendors will trust them to go through, others will require you to wait an hour before giving you what you want. By the same token, when you receive BitCoins, decide how you want to treat the sender, and whether you'll require that hour-long wait. </p>
+                </div>
+            </div>
+
+
+
+            <h1>Paper Wallets</h1>
+            <div class="row bg-shade">
+                <div class="col">
+<p>A paper wallet is basically just a printout of your digital wallet. You could then put that paper in a safe place and delete what's on your device, and then re-import it when you want to spend some Bitcoin</p>
+
+<p>This isn't very easy to do.</p>
+<p>Search online for how to go about this.</p>
+<p>Make sure not to download anything you do not trust.</p>
+
 </div></div>
 
-    </div>
-    <!--Close container-->
-    <script src="../js/jquery.js"></script>
-    <!-- bundle.js contains popper, but not jquery -->
-    <script src="../js/bundle.js"></script>
-</body>
+
+
+
+        </div>
+        <!--Close container-->
+        <script src="../js/jquery.js"></script>
+        <!-- bundle.js contains popper, but not jquery -->
+        <script src="../js/bundle.js"></script>
+    </body>
 
 </html>
