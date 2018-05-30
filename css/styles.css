@@ -4,10 +4,19 @@
 
 body, html {
   /* Fills entire browser when loaded */
-  height: 100%;
+  /* height: 100%; */
   font-family: 'Alegreya Sans', sans-serif;
   background-color: #000;
   color: #00FFC4;
+}
+
+h1 {
+  color: #FFBF2C;
+  margin: 2rem 0;
+}
+
+row {
+  margin: 2rem 0;
 }
 
 /*___________________________________________________
