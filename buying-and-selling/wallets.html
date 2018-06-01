@@ -32,6 +32,9 @@
         <div class="container">
 
 
+
+
+
             <h1>Using Bitcoin</h1>
             <div class="row bg-shade">
                 <div class="col">
@@ -46,6 +49,9 @@
                 </div>
             </div>
 
+
+
+
             <h1>3 Types of wallets</h1>
             <div class="row bg-shade">
                 <div class="col">
@@ -53,7 +59,10 @@
                     <ul>
                         <li>Desktop</li>
                         <li>Mobile</li>
-                        <li>Web - Tend to be less secure</li>
+                        <li>Online - Tend to be less secure
+                        <ul><li>coinbase.com</li>
+                        <li>blockchian.info/wallet</li></ul></li>
+                        <li>Hardware - These vary quite a bit in features, security, and interface. They're not widely used, although possibly worth investigating if you become a serious Bitcoin enthusiast.</li>
                     </ul>
                     <p>A wallet is very much like a bank account, except that you can create as many as you want. And in fact, some people create different wallets for different purposes: such as personal and business or even one wallet for each transaction
                         that they do. </li>
@@ -61,6 +70,15 @@
                             <p>Any of these wallets will work, and you can always change which one you use. Simply install the new wallet and send your Bitcoins to yourself at the new address.</p>
                 </div>
             </div>
+
+<h1>Online wallets</h1>
+<div class="row bg-shade">
+    <div class="col"><p> These use an external service that usually has control of your money. Besides those online wallets listed on bitcoin.org, most places where you can exchange Bitcoins for dollars and euros, also let you store your money on their servers. Coinbase.com and blockchain.info are two examples. The good thing about online wallets is that they don't require any maintenance, and they're accessible even if you're using someone else's computer or phone.
+
+The bad thing is that you're trusting someone else with your money, and that's been a big problem in the past. </p>
+</div></div>
+
+
 
             <h1>Warning</h1>
             <div class="row bg-shade">
@@ -71,6 +89,27 @@
                 </div>
             </div>
 
+            <h1>Warning 2</h1>
+            <div class="row bg-shade">
+                <div class="col">
+                    <p><a href="https://bitcoin.org/en/wallets/desktop/mac/bitcoincore/">https://bitcoin.org/en/wallets/desktop/mac/bitcoincore/</a></p>
+                    <img src="../img/wallets/bitcoincore-mac.png" />
+                    <p>Here we see that Bitcoin Core on the Mac has something called full validation. That means that it downloads the full blockchain, which includes a record of every Bitcoin transaction that has ever occurred. Now that's great for security,
+                        but also means downloading over 140 gigabytes of data the first time you use the wallet. That's like downloading dozens of full length movies. It'll take a really long time and it could cause problems with your internet service
+                        provider.
+                    </p>
+                    <img src="../img/wallets/electrum.png" />
+                    <p>If you check another wallet called 'Electrum', you'll see it does not download the full blockchain.</p>
+                </div>
+            </div>
+
+
+            <h1>Warning about wallets on your local device (like a phone)</h1>
+            <div class="row bg-shade">
+                <div class="col">
+                    <p>if you lose the device or your password, and you haven't made a backup, that's it, you simply lose access to all your money.</p>
+                </div>
+            </div>
 
 
 
@@ -126,9 +165,11 @@
                     <p>Second, if you're buying from a vendor, check out the vendor's policies for accepting BitCoin because they might differ a bit from accepting other kinds of money. </p>
                     <p>Third, BitCoin prices usually vary depending on the exchange rate. So always check current rates to be sure you're paying the amount you expect.</p>
 
-                    <p> Many wallets will show you that conversion before you send anything. Also, because one BitCoin is worth a lot of dollars, it's possible to get confused by the number of 0s after the decimal point. It's easy to fool yourself into thinking that small numbers equal small prices. </p>
+                    <p> Many wallets will show you that conversion before you send anything. Also, because one BitCoin is worth a lot of dollars, it's possible to get confused by the number of 0s after the decimal point. It's easy to fool yourself into thinking
+                        that small numbers equal small prices. </p>
 
-                      <p>Finally, remember that BitCoin transactions have to be confirmed by the network before the recipient can spend the coins. Some vendors will trust them to go through, others will require you to wait an hour before giving you what you want. By the same token, when you receive BitCoins, decide how you want to treat the sender, and whether you'll require that hour-long wait. </p>
+                    <p>Finally, remember that BitCoin transactions have to be confirmed by the network before the recipient can spend the coins. Some vendors will trust them to go through, others will require you to wait an hour before giving you what you
+                        want. By the same token, when you receive BitCoins, decide how you want to treat the sender, and whether you'll require that hour-long wait. </p>
                 </div>
             </div>
 
@@ -137,13 +178,19 @@
             <h1>Paper Wallets</h1>
             <div class="row bg-shade">
                 <div class="col">
-<p>A paper wallet is basically just a printout of your digital wallet. You could then put that paper in a safe place and delete what's on your device, and then re-import it when you want to spend some Bitcoin</p>
+                    <p>A paper wallet is basically just a printout of your digital wallet. You could then put that paper in a safe place and delete what's on your device, and then re-import it when you want to spend some Bitcoin</p>
 
-<p>This isn't very easy to do.</p>
-<p>Search online for how to go about this.</p>
-<p>Make sure not to download anything you do not trust.</p>
+                    <p>This isn't very easy to do.</p>
+                    <p>Search online for how to go about this.</p>
+                    <p>Make sure not to download anything you do not trust.</p>
 
-</div></div>
+<p> Next we come to paper wallets, where you start with either a software wallet or a web wallet, and then you essentially print out the private part of your Bitcoin wallet and store the physical piece of paper in a safe place. They're the safest kind of wallet, because they're completely physical. They simply can't be hacked, except through physical access. And they can be carried around and transferred just like paper money.
+
+But on the other hand, actually using money from a paper wallet is pretty difficult. You first have to convert it back into digital form. In Electrum, you can export your private keys in RAW form by going first to Receive, and then clicking the public address here. That shows a list of addresses in your wallet, as each wallet can have multiple addresses, click on the one you want, and then click Details, and Export Private Key. You'll have to enter your password here.
+
+Other wallets, including online wallets, have similar features. As part of your Bitcoin security strategy, be sure to test them out by exporting your keys and then importing them into another computer.</p>
+                </div>
+            </div>
 
 
 
